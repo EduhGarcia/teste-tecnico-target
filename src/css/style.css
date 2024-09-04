@@ -1,0 +1,50 @@
+body {
+    background: linear-gradient(180deg, rgba(38,44,48,1) 2%, rgba(29,42,51,1) 12%, rgba(39,51,60,1) 92%) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+
+main {
+    display: flex;
+    height: 60%;
+    justify-content: center;
+    align-items: center;
+    gap: 60px
+}
+
+section {
+    font-size: 20px;
+    text-transform: uppercase;
+    max-width: 600px;
+}
+
+section label {
+    font-size: 23px;
+}
+
+section input {
+    font-size: 19px;
+    padding: 5px 10px;
+    border-radius: 6px;
+    margin: 8px 0;
+    border: none;
+}
+
+section button {
+    font-size: 16px;
+    padding: 8px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    border: none;
+}
+
+section p {
+    color: green;
+    margin-top: 25px;
+}
+
+header {
+    text-transform: uppercase;
+    padding: 15px 30px;
+}
