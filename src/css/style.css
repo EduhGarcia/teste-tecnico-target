@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
 body {
+    font-family: "SUSE", sans-serif;
     background: linear-gradient(180deg, rgba(38,44,48,1) 2%, rgba(29,42,51,1) 12%, rgba(39,51,60,1) 92%) no-repeat;
     background-size: cover;
     height: 100vh;
-    color: white;
+    color: white;  
 }
 
 header {
