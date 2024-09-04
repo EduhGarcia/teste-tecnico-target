@@ -5,11 +5,15 @@ body {
     color: white;
 }
 
+header {
+    text-transform: uppercase;
+    padding: 35px 30px;
+}
+
 main {
+    margin-top: 160px;
     display: flex;
-    height: 60%;
     justify-content: center;
-    align-items: center;
     gap: 60px
 }
 
@@ -42,9 +46,4 @@ section button {
 section p {
     color: green;
     margin-top: 25px;
-}
-
-header {
-    text-transform: uppercase;
-    padding: 15px 30px;
 }
