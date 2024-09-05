@@ -39,8 +39,10 @@ bntSearchLetter.addEventListener('click', () => {
     }
 
     if (count != 0) {
+        const  wordLetter = count === 1 ? 'letra' : 'letras'
+
         containerRes.innerHTML = `
-        Na palavra contém ${count} letra(s) A
+        Na palavra contém ${count} ${wordLetter} "A"
         `
     } else if (stringUser == '') {
         containerRes.style.color = 'red'
@@ -50,7 +52,7 @@ bntSearchLetter.addEventListener('click', () => {
         `
     } else {
         containerRes.innerHTML = `
-        Não contém letra A na palavra
+        Não contém letra "A" na palavra
         `
     }
 })
