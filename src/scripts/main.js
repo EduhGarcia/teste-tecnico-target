@@ -56,9 +56,9 @@ bntSearchLetter.addEventListener('click', () => {
 })
 
 function calcRoot(calc) {
-    const raiz = Math.round(Math.sqrt(calc))
+    const root = Math.round(Math.sqrt(calc))
     
-    return raiz*raiz === calc
+    return root*root === calc
 }
 
 function fibonacci(n) {
