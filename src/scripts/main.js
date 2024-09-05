@@ -35,9 +35,7 @@ bntSearchLetter.addEventListener('click', () => {
     let count = 0
 
     for (const char of stringUser.toLowerCase()) {
-        if(char === 'a') {
-            count++ 
-        }
+        if(char === 'a') count++ 
     }
 
     if (count != 0) {
